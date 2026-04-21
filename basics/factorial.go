@@ -7,9 +7,10 @@ func main() {
 	fmt.Print("Enter number: ")
 	fmt.Scan(&n)
 
-	if n%2 == 0 {
-		fmt.Println("Even")
-	} else {
-		fmt.Println("Odd")
+	result := 1
+	for i := 1; i <= n; i++ {
+		result *= i
 	}
+
+	fmt.Println("Factorial:", result)
 }
