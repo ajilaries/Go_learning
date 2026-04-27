@@ -1,3 +1,3 @@
-module go-todo
+module devtool
 
 go 1.26.2
